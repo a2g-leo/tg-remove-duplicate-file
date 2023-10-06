@@ -8,11 +8,11 @@ logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=lo
 logger = logging.getLogger(__name__)
 queue = asyncio.Queue()
 
-api_id = 1 # 請替換成自己api_id
-api_hash = '' # 請替換成自己api_hash
+api_id = 29310987 # 請替換成自己api_id
+api_hash = '336c28913a45587a4c10af8cd620b68f' # 請替換成自己api_hash
 
 # 群組列表
-chat_list = ['https://t.me/*'] # 請替換成自己想要監聽群組
+chat_list = ['https://t.me/+qOlkOTzVbvIwY2Nl'] # 請替換成自己想要監聽群組
 
 # 計算檔案大小
 def convert_size(text):
